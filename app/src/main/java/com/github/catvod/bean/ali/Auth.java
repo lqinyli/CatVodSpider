@@ -1,15 +1,16 @@
 package com.github.catvod.bean.ali;
 
 import android.text.TextUtils;
-import android.widget.ImageView;
 
 public class Auth {
 
     private String refreshToken;
     private String accessToken;
     private String shareToken;
+    private String signature;
+    private String deviceId;
     private String shareId;
-    private ImageView view;
+    private String userId;
 
     public String getRefreshToken() {
         return TextUtils.isEmpty(refreshToken) ? "" : refreshToken;
@@ -35,6 +36,22 @@ public class Auth {
         this.shareToken = shareToken;
     }
 
+    public String getSignature() {
+        return TextUtils.isEmpty(signature) ? "" : signature;
+    }
+
+    public void setSignature(String signature) {
+        this.signature = signature;
+    }
+
+    public String getDeviceId() {
+        return deviceId;
+    }
+
+    public void setDeviceId(String deviceId) {
+        this.deviceId = deviceId;
+    }
+
     public String getShareId() {
         return TextUtils.isEmpty(shareId) ? "" : shareId;
     }
@@ -43,12 +60,12 @@ public class Auth {
         this.shareId = shareId;
     }
 
-    public ImageView getView() {
-        return view;
+    public String getUserId() {
+        return userId;
     }
 
-    public void setView(ImageView view) {
-        this.view = view;
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 
     public boolean isEmpty() {

@@ -1,11 +1,11 @@
 {
-  "spider": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;e4f7f2bc171ddcf963e249003caa9b40",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;69ef6396eb2400c03529c7714d96841a",
   "wallpaper": "https://gao.chuqiuyu.tk",
   "lives": [
     {
       "name": "直播",
       "type": 0,
-      "url": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/adult.txt"
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/adult.txt"
     }
   ],
   "sites": [
@@ -16,6 +16,7 @@
       "api": "csp_AList",
       "searchable": 1,
       "filterable": 1,
+      "changeable": 0,
       "ext": {
         "drives": [
           {
@@ -609,7 +610,8 @@
       "api": "csp_Push",
       "searchable": 1,
       "filterable": 1,
-      "ext": "http://我不是.肥猫.love:63/token.php"
+      "changeable": 0,
+      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/token.txt"
     }
   ]
 }
