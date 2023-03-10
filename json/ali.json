@@ -8,8 +8,8 @@
       "searchable": 1,
       "filterable": 1,
       "switchable": 0,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/token.txt",
-      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
+      "ext": "http://ali.饭太硬.ml/alitoken",
+      "jar": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
     },
     {
       "key": "易搜",
@@ -19,8 +19,8 @@
       "searchable": 1,
       "filterable": 0,
       "switchable": 0,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/token.txt",
-      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
+      "ext": "http://ali.饭太硬.ml/alitoken",
+      "jar": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
     },
     {
       "key": "盤搜",
@@ -30,8 +30,8 @@
       "searchable": 1,
       "filterable": 0,
       "switchable": 0,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/token.txt",
-      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
+      "ext": "http://ali.饭太硬.ml/alitoken",
+      "jar": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
     },
     {
       "key": "UP雲搜",
@@ -41,8 +41,8 @@
       "searchable": 1,
       "filterable": 0,
       "switchable": 0,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/token.txt",
-      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
+      "ext": "http://ali.饭太硬.ml/alitoken",
+      "jar": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
     },
     {
       "key": "找資源",
@@ -52,8 +52,8 @@
       "searchable": 1,
       "filterable": 0,
       "switchable": 0,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/token.txt$$$yingshi$$$abcd1234",
-      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
+      "ext": "http://ali.饭太硬.ml/alitoken$$$yingshi$$$abcd1234",
+      "jar": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
     },
     {
       "key": "push_agent",
@@ -63,8 +63,8 @@
       "searchable": 1,
       "filterable": 0,
       "switchable": 0,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/token.txt",
-      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
+      "ext": "http://ali.饭太硬.ml/alitoken",
+      "jar": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
     }
   ]
 }

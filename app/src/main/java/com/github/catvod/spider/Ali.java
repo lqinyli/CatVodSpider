@@ -38,11 +38,8 @@ public class Ali extends Spider {
     public String playerContent(String flag, String id, List<String> vipFlags) {
         API.get().checkAccessToken();
         String[] ids = id.split("\\+");
-        if (flag.equals("原畫")) {
-            return Result.get().url(API.get().getDownloadUrl(ids[0])).subs(API.get().getSub(ids)).header(API.get().getHeader()).parse(0).string();
-        } else {
-            return Result.get().url(API.get().getPreviewUrl(ids[0])).subs(API.get().getSub(ids)).header(API.get().getHeader()).parse(0).string();
-        }
+        String url = flag.equals("原畫") ? API.get().getDownloadUrl(ids[0]) : API.get().getPreviewUrl(ids[0], flag);
+        return Result.get().url(url).subs(API.get().getSub(ids)).header(API.get().getHeader()).parse(0).string();
     }
 
     public static Object[] vod(Map<String, String> params) {
